@@ -1,5 +1,5 @@
-// Task No- 01
-// Math Operations
+// // Task No- 01
+// // Math Operations
 
 function mindGame (num){
     let operations= ((((num * 3) +10) /2)-5)
@@ -10,8 +10,8 @@ function mindGame (num){
     console.log (total);
 
 
-// Task No-02
-// Finding Even & Odd  String
+// // Task No-02
+// // Finding Even & Odd  String
 
 function evenOdd (string1){
     let string = (string1);
@@ -28,8 +28,8 @@ console.log (str)
 
 
 
-// Task No-03
-// Substraction Operations
+// // Task No-03
+// // Substraction Operations
 
 function isLGSeven (number1){
     let substractions = (number1 - 7);
@@ -47,8 +47,8 @@ function isLGSeven (number1){
 
 
 
-// Task No-04
-// From Numbers Array To Finding Bad/Negative Data
+// // Task No-04
+// // From Numbers Array To Finding Bad/Negative Data
 
 function findingBadData(number){
   let badNumber=[]
@@ -73,19 +73,17 @@ console.log(numberData)
 function gemsToDiamond (gems1, gems2, gems3){
     let totalDiamonds= (gems1 * 21) + (gems2 * 32) + (gems3 * 43);
     console.log (totalDiamonds);
-    let totalGemsAndDiamonds= (420 + 960 + 1935);
+  
     
-       if (totalGemsAndDiamonds < 1000*2){
-        return totalGemsAndDiamonds;
+       if (totalDiamonds <= 1000*2){
+        return totalDiamonds;
     }
-    else if (totalGemsAndDiamonds >= 1000*2){
-        let smallNumber= (totalGemsAndDiamonds - 2000)
+    else if (totalDiamonds > 1000*2){
+        let smallNumber= totalDiamonds - 2000
         return smallNumber;
     }
     }
 
-    const totalOperations=  gemsToDiamond (20, 30, 45 );
+    const totalOperations=  gemsToDiamond (100, 5, 1 );
     console.log (totalOperations);
-
-
 
